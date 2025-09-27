@@ -9,6 +9,7 @@ export default function Banner({ inProgressCount, resolvedCount }) {
           <p className="text-3xl font-bold">{inProgressCount}</p>
         </div>
       </div>
+      
 
       <div className="card bg-gradient-to-tr from-green-500 to-emerald-600 text-white shadow-lg">
         <div className="card-body items-center text-center">
