@@ -1,0 +1,14 @@
+const tickets = [
+  { id: 1001,category:'HIGH PRIORITY', title: "Login Issues - Can't Access Account", description: "Customer is unable to log in to their account. They've tried resetting their password multiple times but still...", customer: 'John Smith', priority: 'HIGH', status: 'Open', createdAt: '11/15/2024' },
+  { id: 1002,category:'HIGH PRIORITY', title: 'Payment Failed - Card Declined', description: 'Customer attempted to pay using Visa ending 1234 but the payment keeps failing despite sufficient balance.', customer: 'Sarah Johnson', priority: 'HIGH', status: 'Open', createdAt: '11/16/2024' },
+  { id: 1003,category:'HIGH PRIORITY', title: 'Unable to Download Invoice', description: 'Customer cannot download their January invoice from the billing section. The download button is...', customer: 'Michael Brown', priority: 'MEDIUM', status: 'In-Progress', createdAt: '11/17/2024' },
+  { id: 1004,category:'HIGH PRIORITY', title: 'Incorrect Billing Address', description: 'Customer’s billing address shows a different city. They updated it but it still displays the old one.', customer: 'Emily Davis', priority: 'LOW', status: 'Open', createdAt: '11/18/2024' },
+  { id: 1005,category:'HIGH PRIORITY', title: 'App Crash on Launch', description: 'Customer reports that the mobile app crashes immediately upon opening on Android 13.', customer: 'David Wilson', priority: 'HIGH', status: 'Open', createdAt: '11/19/2024' },
+  { id: 1006,category:'HIGH PRIORITY', title: 'Refund Not Processed', description: 'Customer requested a refund two weeks ago but has not received the amount yet.', customer: 'Sophia Taylor', priority: 'MEDIUM', status: 'In-Progress', createdAt: '11/20/2024' },
+  { id: 1007,category:'HIGH PRIORITY', title: 'Two-Factor Authentication Issue', description: 'Customer is not receiving 2FA codes on their registered phone number.', customer: 'James Anderson', priority: 'HIGH', status: 'Open', createdAt: '11/21/2024' },
+  { id: 1008,category:'HIGH PRIORITY', title: 'Unable to Update Profile Picture', description: 'Customer tries to upload a new profile picture but gets Upload failed error.', customer: 'Olivia Martinez', priority: 'LOW', status: 'Open', createdAt: '11/22/2024' },
+  { id: 1009,category:'HIGH PRIORITY', title: 'Subscription Auto-Renewal', description: 'Customer wants to enable auto-renewal for their subscription but the toggle is disabled.', customer: 'Liam Thomas', priority: 'MEDIUM', status: 'In-Progress', createdAt: '11/17/2024' },
+  { id: 1010,category:'HIGH PRIORITY', title: 'Missing Order Confirmation Email', description: 'Customer placed an order but didnt receive a confirmation email even though payment succeeded.', customer: 'Isabella Garcia', priority: 'MEDIUM', status: 'Open', createdAt: '11/24/2024' }
+];
+
+export default tickets;
