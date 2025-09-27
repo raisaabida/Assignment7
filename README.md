@@ -5,6 +5,7 @@ Ans: It is a simple extension for javascript which works like html.It is used be
 
 
 2. What is the difference between State and Props?
+Ans: State defines inside the components itself whereas Props define inside the parent component.State can change anything inside code but Props can't.
 3. What is the useState hook, and how does it work?
 4. How can you share state between components in React?
 5. How is event handling done in React?
