@@ -13,4 +13,8 @@ Ans: It is a React hook that allows function components to have state.It updates
 
 
 4. How can you share state between components in React?
+Ans: If I use the "Lift State Up"method, then it move state to a common parent and pass it down via props.
+
+
 5. How is event handling done in React?
+Ans: Events in React are done in camelCase.Instead of strings, it passes function reference. 
